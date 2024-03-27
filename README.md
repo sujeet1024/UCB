@@ -1,5 +1,5 @@
 # UCB
-Here is a basic implementation of _**Upper Confidence Bound**_ Algorithm and its comparison to e-greedy algorithm
+Here is a basic implementation of _**Upper Confidence Bound**_ an exploration Algorithm for Reinforcement Learning (RL) and its comparison to $\epsilon$-greedy algorithm
 
 - Most of the code is part of an assignment of [RL Specialization](https://www.ualberta.ca/admissions-programs/online-courses/reinforcement-learning/index.html) on Coursera by UoA and AMII, Prof. White (s)
 
@@ -20,3 +20,5 @@ Where,
   - $t$ is total number of time steps
   - $c$ is a UCB constant, a hyperparameter
   - $Q_t$ are corresponding action values
+
+This seemingly simple idea of count based $(N_t(a))$ exploration has been proven to work very well and provides a significant advantage in environments with sparse and unclear rewards structure such as the Atari game Montezuma's Revenge.
